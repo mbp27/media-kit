@@ -27,6 +27,13 @@ dependencies:
   universal_platform: ^1.0.0+1
   plugin_platform_interface: ^2.0.2
 
+dependency_overrides:
+  wakelock_plus:
+    git:
+      url: https://github.com/fluttercommunity/wakelock_plus.git
+      path: wakelock_plus
+      ref: a86991841122f81bd892f09b7b7fcd1ca754bc2e
+
 dev_dependencies:
   flutter_lints: ^2.0.0
 
